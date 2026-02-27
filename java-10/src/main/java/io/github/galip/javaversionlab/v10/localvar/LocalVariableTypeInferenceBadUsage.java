@@ -8,13 +8,13 @@ public class LocalVariableTypeInferenceBadUsage {
     // Cannot infer type from null
     // var y = null;
 
-    // Compund declarations not allowed
+    // Compound declarations not allowed
     // var op1 = 1, op2 = 2;
 
     // array initializer needs explicit target-type
     // var array = {1,2,3}
 
-    // not allowed in method paramerter
+    // not allowed in method parameter
     // public void test(var param) {}
 
     // not allowed in generics
