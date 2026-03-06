@@ -1,4 +1,4 @@
-package io.github.galip.javaversionlab.v10.localvar;
+package io.github.galip.javaversionlab.v10.localtypeinference;
 
 import java.util.ArrayList;
 

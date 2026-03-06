@@ -1,4 +1,4 @@
-package io.github.galip.javaversionlab.v10.collections;
+package io.github.galip.javaversionlab.v10.immutablecollections;
 
 import java.util.*;
 import java.util.stream.Collectors;
