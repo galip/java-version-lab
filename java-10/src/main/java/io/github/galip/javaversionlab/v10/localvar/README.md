@@ -3,9 +3,9 @@ Java Version: 10
 JEP: 286
 
 Local Variable Type Inference (var)
+--
 
 Can we reduce verbosity without losing readability?
--
 
 This feature allows variables to be declared without explicit type.
 The compiler infers it at compile time.
@@ -32,7 +32,15 @@ When the type is not obvious we should avoid to use it.
 
 Diamond operator is risky to use.
 
-var list = new ArrayList<>(); compiler infers this as ArrayList<Object> list = new ArrayList<>();
+```bash
+var list = new ArrayList<>(); 
+```
+compiler infers this as
+
+```bash
+ArrayList<Object> list = new ArrayList<>();
+```
+
 We may think it is List<String> but it is Object. This causes a ClassCastException.
 
 
