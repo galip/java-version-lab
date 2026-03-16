@@ -47,6 +47,7 @@ We can use it;
 ```bash
 (@NotNull var x, @NotNull var y) -> x + y
 ```
+![img.png](img.png)
 
 Invalid usage examples;
 
