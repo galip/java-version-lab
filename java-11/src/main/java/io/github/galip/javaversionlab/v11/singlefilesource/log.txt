@@ -1,0 +1,5 @@
+2026-03-18 10:00:00 INFO User logged in 192.168.1.1
+2026-03-18 10:01:00 ERROR Database connection failed 192.168.1.2
+2026-03-18 10:02:00 WARN Disk space low
+2026-03-18 10:03:00 ERROR Database connection failed 192.168.1.2
+2026-03-18 10:04:00 ERROR Null pointer exception 192.168.1.3
